@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+data/raw/
+
+*.pyc
+*.pyo
+*.pyd
+
+.env
+
+artifacts/
+
+logs/
+
+.vscode/
