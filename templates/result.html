@@ -143,96 +143,30 @@
 
     {% for crop in crops %}
 
-    <div class="result-card">
+    <div class="crop-card">
 
-        <div class="row align-items-center">
 
-            <div class="col-md-1 text-center">
+        <!-- Crop Image -->
+        <img 
+        src="{{ url_for('static', filename='images/crops/' + crop.info.image) }}"
+        alt="{{ crop.name }}"
+        class="crop-image"
+        >
 
-                <div class="crop-rank">
-                    {{ loop.index }}
-                </div>
 
-            </div>
+        <h2>
+            {{ crop.name }}
+        </h2>
 
-            <div class="col-md-11">
 
-                <h2 class="crop-name">
-                    {{ crop.name }}
-                </h2>
+        <p>
+            {{ crop.info.description }}
+        </p>
 
-                <p class="text-muted mt-2">
-                    {{ crop.info.description }}
-                </p>
-
-                <div class="row">
-
-                    <div class="col-md-6">
-
-                        <div class="info-card">
-
-                            <div class="info-title">
-                                🌱 Suitable Soil
-                            </div>
-
-                            {{ crop.info.soil }}
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="info-card">
-
-                            <div class="info-title">
-                                🌦 Recommended Season
-                            </div>
-
-                            {{ crop.info.season }}
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="info-card">
-
-                            <div class="info-title">
-                                💧 Water Requirement
-                            </div>
-
-                            {{ crop.info.water }}
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="info-card">
-
-                            <div class="info-title">
-                                🌾 Harvest Duration
-                            </div>
-
-                            {{ crop.info.harvest }}
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
 
     </div>
 
     {% endfor %}
-
     <div class="text-center mt-5">
 
         <a href="/predict" class="btn btn-custom">

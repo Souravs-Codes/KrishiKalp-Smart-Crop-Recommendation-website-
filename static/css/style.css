@@ -538,7 +538,9 @@ body {
 /* ===========================
    PROBLEM SECTION
 =========================== */
-
+.problem-title {
+    color: white;
+}
 .problem-section {
 
     padding: 120px 0;
@@ -563,7 +565,7 @@ body {
 
 .problem-card {
 
-    background: rgba(255, 255, 255, .08);
+    background: rgba(180, 172, 172, 0.08);
 
     backdrop-filter: blur(12px);
 
@@ -610,5 +612,286 @@ body {
     color: #ececec;
 
     line-height: 1.7;
+
+}
+/* ===========================
+SOLUTION SECTION
+=========================== */
+
+.solution-section {
+
+    padding: 120px 0;
+
+    background: #ffffff;
+
+}
+
+
+.solution-card {
+
+    background: #f8faf8;
+
+    padding: 40px 30px;
+
+    border-radius: 22px;
+
+    height: 100%;
+
+    border: 1px solid rgba(46,125,50,.12);
+
+    transition: .35s ease;
+
+}
+
+
+.solution-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,.1);
+
+}
+
+
+.solution-icon {
+
+    width: 75px;
+
+    height: 75px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #dff5e1;
+
+    font-size: 35px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.solution-card h4 {
+
+    font-weight: 700;
+
+    color:#1c1c1c;
+
+    margin-bottom:15px;
+
+}
+
+
+.solution-card p {
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+
+
+/* ===========================
+FEATURE SECTION
+=========================== */
+
+
+.features-section {
+
+    padding:120px 0;
+
+    background:#f8faf8;
+
+}
+
+
+
+.feature-card {
+
+    background:white;
+
+    padding:35px 25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.07);
+
+    transition:.35s ease;
+
+}
+
+
+
+.feature-card:hover {
+
+    transform:translateY(-10px);
+
+    box-shadow:0 25px 45px rgba(0,0,0,.12);
+
+}
+
+
+
+.feature-icon {
+
+    font-size:50px;
+
+    color:#2E7D32;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.feature-card h4 {
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.feature-card p {
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+
+
+/* ===========================
+ABOUT SECTION
+=========================== */
+
+
+.about-section {
+
+    padding:120px 0;
+
+    background:white;
+
+}
+
+
+
+.about-box {
+
+    background:linear-gradient(
+        135deg,
+        #1b4332,
+        #081c15
+    );
+
+    color:white;
+
+    padding:60px;
+
+    border-radius:30px;
+
+}
+
+
+
+.about-box h2 {
+
+    color:white;
+
+}
+
+
+
+.about-box p {
+
+    color:#e0e0e0;
+
+    line-height:1.9;
+
+}
+
+
+
+.tech-badge {
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.12);
+
+    margin:8px;
+
+    font-weight:500;
+
+}
+
+
+
+/* ===========================
+FOOTER
+=========================== */
+
+
+.footer {
+
+    background:#081c15;
+
+    color:white;
+
+    padding:40px 0;
+
+    text-align:center;
+
+}
+
+
+
+.footer p {
+
+    color:#ccc;
+
+    margin:0;
+
+}
+
+
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+
+@media(max-width:768px){
+
+
+.about-box{
+
+    padding:35px 25px;
+
+}
+
+
+.section-title{
+
+    font-size:2.2rem;
+
+}
+
 
 }

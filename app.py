@@ -1,14 +1,13 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import pandas as pd
-from utils.crop_info import get_crop_details
 
+from utils.crop_info import get_crop_details
 from utils.predict import recommend_crops
 
-import pandas as pd
-from flask import jsonify
 
 # Load dataset only once
 dataset = pd.read_csv("data/processed/master_dataset.csv")
+
 
 app = Flask(__name__)
 
@@ -17,12 +16,16 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+
 @app.route("/api/states")
 def get_states():
 
-    states = sorted(dataset["state_name"].dropna().unique().tolist())
+    states = sorted(
+        dataset["state_name"].dropna().unique().tolist()
+    )
 
     return jsonify(states)
+
 
 @app.route("/api/districts/<state>")
 def get_districts(state):
@@ -38,6 +41,7 @@ def get_districts(state):
     districts.sort()
 
     return jsonify(districts)
+
 
 @app.route("/predict")
 def predict():
@@ -70,13 +74,14 @@ def recommend():
         "solar_radiation": [float(request.form["solar_radiation"])]
     }
 
+
     input_df = pd.DataFrame(data)
 
-    
 
     recommendations = recommend_crops(input_df)
 
     top_crops = recommendations[:3]
+
 
     crop_details = []
 
@@ -86,10 +91,12 @@ def recommend():
             "info": get_crop_details(crop)
         })
 
+
     return render_template(
         "result.html",
         crops=crop_details
     )
+
 
 if __name__ == "__main__":
     app.run(debug=True)
