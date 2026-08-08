@@ -88,7 +88,10 @@ def recommend():
     for crop in top_crops:
         crop_details.append({
             "name": crop,
-            "info": get_crop_details(crop)
+            "info": get_crop_details(
+                crop,
+                input_df
+            )
         })
 
 

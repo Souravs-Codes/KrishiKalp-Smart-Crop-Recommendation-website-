@@ -1,0 +1,1125 @@
+{
+    "Rice": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2500],
+        "ph": [5.5, 7],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Paddy": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2500],
+        "ph": [5.5, 7],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Wheat": {
+        "temperature": [15, 25],
+        "rainfall": [500, 900],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Maize": {
+        "temperature": [18, 32],
+        "rainfall": [500, 800],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Bajra": {
+        "temperature": [25, 35],
+        "rainfall": [300, 600],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Gram": {
+        "temperature": [20, 30],
+        "rainfall": [400, 600],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Arhar/Tur": {
+        "temperature": [20, 35],
+        "rainfall": [600, 1000],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Sugarcane": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 1500],
+        "ph": [6, 7.5],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Potato": {
+        "temperature": [15, 25],
+        "rainfall": [500, 750],
+        "ph": [5, 6.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Tomato": {
+        "temperature": [20, 30],
+        "rainfall": [400, 800],
+        "ph": [6, 7],
+        "water": "Moderate",
+        "season": "All seasons"
+    },
+    
+    "Gram": {
+        "temperature": [20, 30],
+        "rainfall": [400, 600],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Arhar/Tur": {
+        "temperature": [20, 35],
+        "rainfall": [600, 1000],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Blackgram": {
+        "temperature": [25, 35],
+        "rainfall": [600, 900],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Moong(Green Gram)": {
+        "temperature": [25, 35],
+        "rainfall": [350, 600],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Moth": {
+        "temperature": [25, 35],
+        "rainfall": [300, 500],
+        "ph": [6, 8],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Urad": {
+        "temperature": [25, 35],
+        "rainfall": [600, 900],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Lentil": {
+        "temperature": [15, 25],
+        "rainfall": [300, 500],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Masoor": {
+        "temperature": [15, 25],
+        "rainfall": [300, 500],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Peas  (vegetable)": {
+        "temperature": [10, 25],
+        "rainfall": [400, 600],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Soyabean": {
+        "temperature": [20, 30],
+        "rainfall": [600, 1000],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Groundnut": {
+        "temperature": [25, 35],
+        "rainfall": [500, 1000],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Wheat": {
+        "temperature": [15, 25],
+        "rainfall": [500, 900],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Rice": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2500],
+        "ph": [5.5, 7],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Paddy": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2500],
+        "ph": [5.5, 7],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Maize": {
+        "temperature": [18, 32],
+        "rainfall": [500, 800],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Jowar": {
+        "temperature": [25, 35],
+        "rainfall": [400, 700],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Ragi": {
+        "temperature": [20, 30],
+        "rainfall": [500, 1000],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Bajra": {
+        "temperature": [25, 35],
+        "rainfall": [300, 600],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+    
+    "Potato": {
+        "temperature": [15, 25],
+        "rainfall": [500, 750],
+        "ph": [5, 6.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Tomato": {
+        "temperature": [20, 30],
+        "rainfall": [400, 800],
+        "ph": [6, 7],
+        "water": "Moderate",
+        "season": "All seasons"
+    },
+
+    "Onion": {
+        "temperature": [13, 25],
+        "rainfall": [350, 600],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Cabbage": {
+        "temperature": [15, 25],
+        "rainfall": [500, 800],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Cauliflower": {
+        "temperature": [15, 25],
+        "rainfall": [500, 800],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Carrot": {
+        "temperature": [15, 25],
+        "rainfall": [400, 800],
+        "ph": [6, 7],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Bhindi": {
+        "temperature": [25, 35],
+        "rainfall": [500, 800],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Brinjal": {
+        "temperature": [20, 30],
+        "rainfall": [600, 1000],
+        "ph": [5.5, 7],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Cucumber": {
+        "temperature": [20, 30],
+        "rainfall": [400, 800],
+        "ph": [6, 7],
+        "water": "High",
+        "season": "Summer"
+    },
+
+    "Bitter Gourd": {
+        "temperature": [25, 35],
+        "rainfall": [600, 1200],
+        "ph": [6, 7],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Bottle Gourd": {
+        "temperature": [25, 35],
+        "rainfall": [600, 1200],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Pump Kin": {
+        "temperature": [20, 30],
+        "rainfall": [500, 1000],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Water Melon": {
+        "temperature": [25, 35],
+        "rainfall": [400, 600],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Summer"
+    },
+
+    "Papaya": {
+        "temperature": [22, 35],
+        "rainfall": [1000, 1500],
+        "ph": [6, 7],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Banana": {
+        "temperature": [20, 35],
+        "rainfall": [1200, 2500],
+        "ph": [6, 7.5],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Mango": {
+        "temperature": [24, 30],
+        "rainfall": [750, 2500],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Apple": {
+        "temperature": [10, 25],
+        "rainfall": [1000, 1500],
+        "ph": [5.5, 7],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Grapes": {
+        "temperature": [15, 35],
+        "rainfall": [500, 900],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Orange": {
+        "temperature": [20, 30],
+        "rainfall": [1000, 1500],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Pineapple": {
+        "temperature": [22, 32],
+        "rainfall": [1000, 1500],
+        "ph": [5, 6.5],
+        "water": "High",
+        "season": "Annual"
+    },
+    " Cotton(lint)": {
+    "temperature": [21, 35],
+    "rainfall": [500, 1000],
+    "ph": [5.5, 8],
+    "water": "Moderate",
+    "season": "Kharif"
+    },
+
+    "Jute": {
+        "temperature": [24, 35],
+        "rainfall": [1500, 2500],
+        "ph": [6, 7.5],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Sugarcane": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 1500],
+        "ph": [6, 7.5],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Tea": {
+        "temperature": [18, 30],
+        "rainfall": [1500, 3000],
+        "ph": [4.5, 5.5],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Coffee": {
+        "temperature": [15, 28],
+        "rainfall": [1500, 2500],
+        "ph": [5, 6.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Rubber": {
+        "temperature": [25, 35],
+        "rainfall": [2000, 3000],
+        "ph": [4.5, 6.5],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Coconut": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2500],
+        "ph": [5.2, 8],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Tobacco": {
+        "temperature": [20, 30],
+        "rainfall": [500, 1000],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Turmeric": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2000],
+        "ph": [5.5, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Ginger": {
+        "temperature": [20, 30],
+        "rainfall": [1500, 3000],
+        "ph": [5.5, 6.5],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Garlic": {
+        "temperature": [12, 25],
+        "rainfall": [500, 700],
+        "ph": [6, 7],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Dry chillies": {
+        "temperature": [20, 35],
+        "rainfall": [500, 1000],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Black pepper": {
+        "temperature": [20, 35],
+        "rainfall": [2000, 3000],
+        "ph": [5.5, 7],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Cardamom": {
+        "temperature": [10, 35],
+        "rainfall": [1500, 4000],
+        "ph": [5.5, 6.5],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Cashewnut": {
+        "temperature": [20, 35],
+        "rainfall": [1000, 2000],
+        "ph": [5, 6.5],
+        "water": "Low",
+        "season": "Annual"
+    },
+
+    "Arecanut": {
+        "temperature": [20, 35],
+        "rainfall": [1500, 4000],
+        "ph": [5.5, 7],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Sunflower": {
+        "temperature": [20, 30],
+        "rainfall": [500, 750],
+        "ph": [6, 7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Mustard": {
+        "temperature": [10, 25],
+        "rainfall": [350, 500],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Sesamum": {
+        "temperature": [25, 35],
+        "rainfall": [400, 700],
+        "ph": [5.5, 8],
+        "water": "Low",
+        "season": "Kharif"
+    },
+    "Barley": {
+    "temperature": [12, 25],
+    "rainfall": [350, 600],
+    "ph": [6, 8],
+    "water": "Low",
+    "season": "Rabi"
+    },
+
+    "Ragi": {
+        "temperature": [20, 30],
+        "rainfall": [500, 1000],
+        "ph": [5.5, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Korra": {
+        "temperature": [25, 35],
+        "rainfall": [400, 700],
+        "ph": [5.5, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Varagu": {
+        "temperature": [25, 35],
+        "rainfall": [400, 800],
+        "ph": [5.5, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Small millets": {
+        "temperature": [20, 30],
+        "rainfall": [400, 800],
+        "ph": [5.5, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Sesamum": {
+        "temperature": [25, 35],
+        "rainfall": [400, 700],
+        "ph": [5.5, 8],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Linseed": {
+        "temperature": [15, 25],
+        "rainfall": [400, 600],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Niger seed": {
+        "temperature": [20, 30],
+        "rainfall": [500, 1000],
+        "ph": [5.5, 7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Safflower": {
+        "temperature": [15, 30],
+        "rainfall": [300, 600],
+        "ph": [6, 8],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Rapeseed &Mustard": {
+        "temperature": [10, 25],
+        "rainfall": [350, 500],
+        "ph": [6, 7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Sweetpotato": {
+        "temperature": [21, 30],
+        "rainfall": [750, 1500],
+        "ph": [5.5, 6.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Tapioca": {
+        "temperature": [25, 35],
+        "rainfall": [1000, 1500],
+        "ph": [5.5, 7],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Yam": {
+        "temperature": [25, 35],
+        "rainfall": [1000, 1500],
+        "ph": [5.5, 7],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+    "Arcanut (Processed)": {
+    "temperature": [20,35],
+    "rainfall": [1500,3000],
+    "ph": [5.5,7],
+    "water": "High",
+    "season": "Annual"
+    },
+
+    "Ash Gourd": {
+        "temperature": [25,35],
+        "rainfall": [500,1000],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Atcanut (Raw)": {
+        "temperature": [20,35],
+        "rainfall": [1500,3000],
+        "ph": [5.5,7],
+        "water": "High",
+        "season": "Annual"
+    },
+
+    "Bean": {
+        "temperature": [15,25],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Beans & Mutter(Vegetable)": {
+        "temperature": [15,25],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Beet Root": {
+        "temperature": [15,25],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Ber": {
+        "temperature": [20,35],
+        "rainfall": [300,800],
+        "ph": [6,8],
+        "water": "Low",
+        "season": "Annual"
+    },
+
+    "Jack Fruit": {
+        "temperature": [20,35],
+        "rainfall": [1000,2500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Lemon": {
+        "temperature": [20,35],
+        "rainfall": [800,1500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Litchi": {
+        "temperature": [15,30],
+        "rainfall": [1000,2000],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Peach": {
+        "temperature": [10,25],
+        "rainfall": [800,1200],
+        "ph": [6,7],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Pear": {
+        "temperature": [10,25],
+        "rainfall": [800,1200],
+        "ph": [6,7],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Plums": {
+        "temperature": [10,25],
+        "rainfall": [700,1000],
+        "ph": [6,7],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Pome Fruit": {
+        "temperature": [10,25],
+        "rainfall": [800,1200],
+        "ph": [6,7],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Pome Granet": {
+        "temperature": [20,35],
+        "rainfall": [500,800],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Annual"
+    },
+
+    "Sapota": {
+        "temperature": [22,35],
+        "rainfall": [1000,2000],
+        "ph": [6,8],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+    "Cashewnut Processed": {
+    "temperature": [20,35],
+    "rainfall": [1000,2000],
+    "ph": [5,6.5],
+    "water": "Low",
+    "season": "Annual"
+},
+
+"Cashewnut Raw": {
+    "temperature": [20,35],
+    "rainfall": [1000,2000],
+    "ph": [5,6.5],
+    "water": "Low",
+    "season": "Annual"
+},
+
+    "Castor seed": {
+        "temperature": [20,30],
+        "rainfall": [500,750],
+        "ph": [6,8],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Citrus Fruit": {
+        "temperature": [20,35],
+        "rainfall": [1000,1500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Colocosia": {
+        "temperature": [20,35],
+        "rainfall": [1000,2000],
+        "ph": [5.5,7],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Cond-spcs other": {
+        "temperature": [20,35],
+        "rainfall": [800,1500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Coriander": {
+        "temperature": [15,25],
+        "rainfall": [300,500],
+        "ph": [6,8],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Cotton(lint)": {
+        "temperature": [21,35],
+        "rainfall": [500,1000],
+        "ph": [5.5,8],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Cowpea(Lobia)": {
+        "temperature": [25,35],
+        "rainfall": [500,900],
+        "ph": [5.5,7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Drum Stick": {
+        "temperature": [25,35],
+        "rainfall": [750,1500],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Annual"
+    },
+
+    "Dry ginger": {
+        "temperature": [20,30],
+        "rainfall": [1500,3000],
+        "ph": [5.5,6.5],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Guar seed": {
+        "temperature": [25,35],
+        "rainfall": [300,600],
+        "ph": [6,8],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Horse-gram": {
+        "temperature": [20,30],
+        "rainfall": [400,700],
+        "ph": [6,8],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Jobster": {
+        "temperature": [20,30],
+        "rainfall": [500,1000],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Jute & mesta": {
+        "temperature": [24,35],
+        "rainfall": [1500,2500],
+        "ph": [6,7.5],
+        "water": "High",
+        "season": "Kharif"
+    },
+
+    "Kapas": {
+        "temperature": [21,35],
+        "rainfall": [500,1000],
+        "ph": [5.5,8],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Khesari": {
+        "temperature": [15,30],
+        "rainfall": [300,500],
+        "ph": [6,8],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Lab-Lab": {
+        "temperature": [20,30],
+        "rainfall": [600,1000],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Mesta": {
+        "temperature": [24,35],
+        "rainfall": [1000,1500],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+    "Oilseeds total": {
+    "temperature": [20,35],
+    "rainfall": [400,1000],
+    "ph": [6,7.5],
+    "water": "Low to Moderate",
+    "season": "Kharif/Rabi"
+    },
+
+    "Other Rabi pulses": {
+        "temperature": [15,30],
+        "rainfall": [300,600],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+    
+    "Other  Rabi pulses": {
+        "temperature": [15,30],
+        "rainfall": [300,600],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Rabi"
+    },
+
+    "Other Cereals": {
+        "temperature": [15,35],
+        "rainfall": [400,1000],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Kharif/Rabi"
+    },
+
+    "Other Cereals & Millets": {
+        "temperature": [20,35],
+        "rainfall": [400,800],
+        "ph": [5.5,7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Other Citrus Fruit": {
+        "temperature": [20,35],
+        "rainfall": [800,1500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Other Fresh Fruits": {
+        "temperature": [15,35],
+        "rainfall": [700,1500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Annual"
+    },
+
+    "Other Kharif pulses": {
+        "temperature": [20,35],
+        "rainfall": [500,1000],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Other Summer Pulses": {
+        "temperature": [25,35],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Summer"
+    },
+
+    "Other Vegetables": {
+        "temperature": [18,30],
+        "rainfall": [500,1000],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Seasonal"
+    },
+
+    "Peas & beans (Pulses)": {
+        "temperature": [15,25],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Perilla": {
+        "temperature": [15,30],
+        "rainfall": [500,1000],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Pulses total": {
+        "temperature": [20,30],
+        "rainfall": [400,800],
+        "ph": [6,7.5],
+        "water": "Low to Moderate",
+        "season": "Kharif/Rabi"
+    },
+
+    "Rajmash Kholar": {
+        "temperature": [15,25],
+        "rainfall": [500,900],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Redish": {
+        "temperature": [10,25],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "Ribed Guard": {
+        "temperature": [20,30],
+        "rainfall": [600,1000],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Ricebean (nagadal)": {
+        "temperature": [20,30],
+        "rainfall": [700,1200],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Samai": {
+        "temperature": [20,30],
+        "rainfall": [400,800],
+        "ph": [5.5,7.5],
+        "water": "Low",
+        "season": "Kharif"
+    },
+
+    "Sannhamp": {
+        "temperature": [25,35],
+        "rainfall": [600,1000],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Snak Guard": {
+        "temperature": [25,35],
+        "rainfall": [600,1200],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Sweet potato": {
+        "temperature": [21,30],
+        "rainfall": [750,1500],
+        "ph": [5.5,6.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "Total foodgrain": {
+        "temperature": [15,35],
+        "rainfall": [500,1500],
+        "ph": [5.5,7.5],
+        "water": "Moderate",
+        "season": "Kharif/Rabi"
+    },
+
+    "Turnip": {
+        "temperature": [10,25],
+        "rainfall": [400,700],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Rabi"
+    },
+
+    "other fibres": {
+        "temperature": [20,35],
+        "rainfall": [800,1500],
+        "ph": [6,7.5],
+        "water": "Moderate",
+        "season": "Kharif"
+    },
+
+    "other misc. pulses": {
+        "temperature": [20,35],
+        "rainfall": [400,800],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Kharif/Rabi"
+    },
+
+    "other oilseeds": {
+        "temperature": [20,35],
+        "rainfall": [400,1000],
+        "ph": [6,7.5],
+        "water": "Low",
+        "season": "Kharif/Rabi"
+    }
+}
+

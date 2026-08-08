@@ -4,7 +4,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 150-180 days when fruits develop proper color and size."
     },
     "Arcanut (Processed)": {
         "description": "Arcanut (Processed) is an agricultural crop recommended based on soil and climatic conditions.",
@@ -25,7 +25,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 150-180 days when pods become mature and dry."
     },
     "Ash Gourd": {
         "description": "Ash Gourd is an agricultural crop recommended based on soil and climatic conditions.",
@@ -46,21 +46,21 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 75-100 days when grains mature."
     },
     "Banana": {
         "description": "Banana is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 9-12 months when fruits become mature and rounded."
     },
     "Barley": {
         "description": "Barley is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when grains mature."
     },
     "Bean": {
         "description": "Bean is an agricultural crop recommended based on soil and climatic conditions.",
@@ -116,7 +116,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 70-90 days when pods turn black."
     },
     "Bottle Gourd": {
         "description": "Bottle Gourd is an agricultural crop recommended based on soil and climatic conditions.",
@@ -137,7 +137,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when heads become firm."
     },
     "Cardamom": {
         "description": "Cardamom is an agricultural crop recommended based on soil and climatic conditions.",
@@ -151,7 +151,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 70-90 days when roots reach proper size."
     },
     "Cashewnut": {
         "description": "Cashewnut is an agricultural crop recommended based on soil and climatic conditions.",
@@ -200,14 +200,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 11-12 months when nuts mature."
     },
     "Coffee": {
         "description": "Coffee is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 8-12 months when berries turn red."
     },
     "Colocosia": {
         "description": "Colocosia is an agricultural crop recommended based on soil and climatic conditions.",
@@ -235,14 +235,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 150-180 days when cotton bolls open."
     },
     "Cowpea(Lobia)": {
         "description": "Cowpea(Lobia) is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 60-90 days when pods become mature."
     },
     "Cucumber": {
         "description": "Cucumber is an agricultural crop recommended based on soil and climatic conditions.",
@@ -277,35 +277,35 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 5-6 months when leaves dry."
     },
     "Ginger": {
         "description": "Ginger is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 8-10 months when leaves dry."
     },
     "Gram": {
         "description": "Gram is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when pods dry completely."
     },
     "Grapes": {
         "description": "Grapes is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when berries reach sweetness."
     },
     "Groundnut": {
         "description": "Groundnut is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-130 days when leaves turn yellow and pods mature."
     },
     "Guar seed": {
         "description": "Guar seed is an agricultural crop recommended based on soil and climatic conditions.",
@@ -319,7 +319,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when pods mature."
     },
     "Jack Fruit": {
         "description": "Jack Fruit is an agricultural crop recommended based on soil and climatic conditions.",
@@ -340,7 +340,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-120 days when grains become hard."
     },
     "Jute": {
         "description": "Jute is an agricultural crop recommended based on soil and climatic conditions.",
@@ -368,14 +368,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when pods dry."
     },
     "Korra": {
         "description": "Korra is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when grains mature."
     },
     "Lab-Lab": {
         "description": "Lab-Lab is an agricultural crop recommended based on soil and climatic conditions.",
@@ -396,7 +396,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-120 days when plants turn yellow."
     },
     "Linseed": {
         "description": "Linseed is an agricultural crop recommended based on soil and climatic conditions.",
@@ -417,21 +417,21 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 80-120 days when kernels become mature."
     },
     "Mango": {
         "description": "Mango is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-150 days after flowering when fruits mature."
     },
     "Masoor": {
         "description": "Masoor is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 110-130 days when pods mature."
     },
     "Mesta": {
         "description": "Mesta is an agricultural crop recommended based on soil and climatic conditions.",
@@ -445,14 +445,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 60-90 days when pods mature."
     },
     "Moth": {
         "description": "Moth is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when pods dry."
     },
     "Niger seed": {
         "description": "Niger seed is an agricultural crop recommended based on soil and climatic conditions.",
@@ -473,7 +473,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-150 days when tops fall down."
     },
     "Orange": {
         "description": "Orange is an agricultural crop recommended based on soil and climatic conditions.",
@@ -494,14 +494,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-150 days depending on crop variety."
     },
     "Other Cereals & Millets": {
         "description": "Other Cereals & Millets is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days depending on variety."
     },
     "Other Citrus Fruit": {
         "description": "Other Citrus Fruit is an agricultural crop recommended based on soil and climatic conditions.",
@@ -522,21 +522,21 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days depending on variety."
     },
     "Other Rabi pulses": {
         "description": "Other Rabi pulses is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-150 days depending on variety."
     },
     "Other Summer Pulses": {
         "description": "Other Summer Pulses is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 60-90 days depending on variety."
     },
     "Other Vegetables": {
         "description": "Other Vegetables is an agricultural crop recommended based on soil and climatic conditions.",
@@ -550,14 +550,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when grains mature."
     },
     "Papaya": {
         "description": "Papaya is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 9-12 months when fruits show yellow color."
     },
     "Peach": {
         "description": "Peach is an agricultural crop recommended based on soil and climatic conditions.",
@@ -578,14 +578,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 60-90 days when pods are tender."
     },
     "Peas & beans (Pulses)": {
         "description": "Peas & beans (Pulses) is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 70-100 days when pods mature."
     },
     "Perilla": {
         "description": "Perilla is an agricultural crop recommended based on soil and climatic conditions.",
@@ -599,7 +599,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 18-24 months when fruits mature."
     },
     "Plums": {
         "description": "Plums is an agricultural crop recommended based on soil and climatic conditions.",
@@ -627,14 +627,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when leaves dry."
     },
     "Pulses total": {
         "description": "Pulses total is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest period varies between 60-150 days depending on pulse crop."
     },
     "Pump Kin": {
         "description": "Pump Kin is an agricultural crop recommended based on soil and climatic conditions.",
@@ -648,14 +648,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-120 days when ears become brown."
     },
     "Rajmash Kholar": {
         "description": "Rajmash Kholar is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when pods dry."
     },
     "Rapeseed &Mustard": {
         "description": "Rapeseed &Mustard is an agricultural crop recommended based on soil and climatic conditions.",
@@ -683,14 +683,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 100-150 days when grains become golden and dry."
     },
     "Ricebean (nagadal)": {
         "description": "Ricebean (nagadal) is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when pods mature."
     },
     "Rubber": {
         "description": "Rubber is an agricultural crop recommended based on soil and climatic conditions.",
@@ -711,7 +711,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when grains mature."
     },
     "Sannhamp": {
         "description": "Sannhamp is an agricultural crop recommended based on soil and climatic conditions.",
@@ -732,14 +732,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when capsules turn yellow."
     },
     "Small millets": {
         "description": "Small millets is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 70-120 days depending on variety."
     },
     "Snak Guard": {
         "description": "Snak Guard is an agricultural crop recommended based on soil and climatic conditions.",
@@ -753,21 +753,21 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when leaves turn yellow."
     },
     "Sugarcane": {
         "description": "Sugarcane is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 10-18 months when stalks mature."
     },
     "Sunflower": {
         "description": "Sunflower is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when flower heads turn brown."
     },
     "Sweet potato": {
         "description": "Sweet potato is an agricultural crop recommended based on soil and climatic conditions.",
@@ -788,7 +788,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest young leaves regularly throughout the growing season."
     },
     "Tobacco": {
         "description": "Tobacco is an agricultural crop recommended based on soil and climatic conditions.",
@@ -802,21 +802,21 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 60-90 days when fruits become fully colored."
     },
     "Total foodgrain": {
         "description": "Total foodgrain is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest period varies between 90-150 days depending on crop."
     },
     "Turmeric": {
         "description": "Turmeric is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 7-10 months when leaves turn yellow."
     },
     "Turnip": {
         "description": "Turnip is an agricultural crop recommended based on soil and climatic conditions.",
@@ -830,14 +830,14 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 70-90 days when pods become black."
     },
     "Varagu": {
         "description": "Varagu is an agricultural crop recommended based on soil and climatic conditions.",
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 90-120 days when grains mature."
     },
     "Water Melon": {
         "description": "Water Melon is an agricultural crop recommended based on soil and climatic conditions.",
@@ -851,7 +851,7 @@
         "soil": "Suitable soil conditions vary depending on region.",
         "season": "Depends on cultivation region.",
         "water": "Moderate water requirement.",
-        "harvest": "Varies according to crop variety."
+        "harvest": "Harvest after 120-150 days when grains become hard and golden."
     },
     "Yam": {
         "description": "Yam is an agricultural crop recommended based on soil and climatic conditions.",

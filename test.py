@@ -1,7 +1,6 @@
-import joblib
+import json
 
-mlb = joblib.load("models/multilabel_binarizer.pkl")
+with open("data/crops.json", encoding="utf-8") as f:
+    crops = json.load(f)
 
-print("Total crops:", len(mlb.classes_))
-
-print(list(mlb.classes_))
+print(crops["Arhar/Tur"]["harvest"])
