@@ -34,6 +34,103 @@
             margin-bottom:50px;
 
         }
+        .crop-card {
+
+        display:flex;
+
+        gap:30px;
+
+        background:white;
+
+        padding:25px;
+
+        border-radius:25px;
+
+        margin:30px auto;
+
+        width:80%;
+
+        box-shadow:0 15px 35px rgba(0,0,0,.1);
+
+    }
+
+
+    .crop-image {
+
+        width:300px;
+
+        height:250px;
+
+        object-fit:cover;
+
+        border-radius:20px;
+
+    }
+
+
+    .crop-content {
+
+        flex:1;
+
+    }
+
+
+    .crop-content h2 {
+
+        color:#2E7D32;
+
+        font-size:2rem;
+
+        margin-bottom:15px;
+
+    }
+
+
+    .crop-content p {
+
+        color:#555;
+
+        line-height:1.7;
+
+    }
+
+
+
+    .location-box {
+
+        text-align:center;
+
+        margin:20px;
+
+        padding:15px;
+
+        background:#dff5e1;
+
+        color:#2E7D32;
+
+        border-radius:50px;
+
+    }
+
+
+    @media(max-width:768px){
+
+    .crop-card{
+
+        flex-direction:column;
+
+        width:95%;
+
+    }
+
+
+    .crop-image{
+
+        width:100%;
+
+    }
+
+    }
 
         .page-title h1{
 
@@ -140,28 +237,60 @@
         <p>Based on your soil and weather conditions, these crops are the most suitable.</p>
 
     </div>
+    <div class="location-box">
+
+        📍 Recommended for:
+
+        <strong>
+        {{ district }}, {{ state }}
+        </strong>
+
+    </div>
 
     {% for crop in crops %}
 
     <div class="crop-card">
 
-
-        <!-- Crop Image -->
         <img 
         src="{{ url_for('static', filename='images/crops/' + crop.info.image) }}"
-        alt="{{ crop.name }}"
         class="crop-image"
+        alt="{{ crop.name }}"
         >
 
 
-        <h2>
-            {{ crop.name }}
-        </h2>
+        <div class="crop-content">
+
+            <h2>
+                {{ crop.name }}
+            </h2>
 
 
-        <p>
-            {{ crop.info.description }}
-        </p>
+            <p>
+                {{ crop.info.description }}
+            </p>
+
+
+            <div class="crop-details">
+
+                <p>
+                    🌱 <b>Soil:</b> {{ crop.info.soil }}
+                </p>
+
+                <p>
+                    🌦️ <b>Season:</b> {{ crop.info.season }}
+                </p>
+
+                <p>
+                    💧 <b>Water:</b> {{ crop.info.water }}
+                </p>
+
+                <p>
+                    ⏳ <b>Harvest:</b> {{ crop.info.harvest }}
+                </p>
+
+            </div>
+
+        </div>
 
 
     </div>

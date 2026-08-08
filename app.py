@@ -94,7 +94,9 @@ def recommend():
 
     return render_template(
         "result.html",
-        crops=crop_details
+        crops=crop_details,
+        state=data["state_name"][0],
+        district=data["district_name"][0]
     )
 
 

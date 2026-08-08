@@ -1,41 +1,884 @@
 {
-    "Rice": {
-      "description": "Rice is one of the most important food crops in India.",
-      "soil": "Clayey or loamy soil",
-      "season": "Kharif",
-      "water": "High",
-      "harvest": "120-150 days"
+    "Apple": {
+        "description": "Apple is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
     },
-  
-    "Wheat": {
-      "description": "Wheat is a major Rabi cereal crop.",
-      "soil": "Well-drained loamy soil",
-      "season": "Rabi",
-      "water": "Moderate",
-      "harvest": "110-140 days"
+    "Arcanut (Processed)": {
+        "description": "Arcanut (Processed) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
     },
-  
-    "Maize": {
-      "description": "Maize is widely used as food, fodder and industrial raw material.",
-      "soil": "Well-drained fertile soil",
-      "season": "Kharif/Rabi",
-      "water": "Moderate",
-      "harvest": "90-120 days"
+    "Arecanut": {
+        "description": "Arecanut is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
     },
-  
-    "Cotton": {
-      "description": "Cotton is an important commercial fibre crop.",
-      "soil": "Black cotton soil",
-      "season": "Kharif",
-      "water": "Moderate",
-      "harvest": "160-180 days"
+    "Arhar/Tur": {
+        "description": "Arhar/Tur is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
     },
-  
+    "Ash Gourd": {
+        "description": "Ash Gourd is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Atcanut (Raw)": {
+        "description": "Atcanut (Raw) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Bajra": {
+        "description": "Bajra is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Banana": {
+        "description": "Banana is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Barley": {
+        "description": "Barley is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Bean": {
+        "description": "Bean is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Beans & Mutter(Vegetable)": {
+        "description": "Beans & Mutter(Vegetable) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Beet Root": {
+        "description": "Beet Root is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Ber": {
+        "description": "Ber is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Bhindi": {
+        "description": "Bhindi is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Bitter Gourd": {
+        "description": "Bitter Gourd is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Black pepper": {
+        "description": "Black pepper is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Blackgram": {
+        "description": "Blackgram is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Bottle Gourd": {
+        "description": "Bottle Gourd is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Brinjal": {
+        "description": "Brinjal is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cabbage": {
+        "description": "Cabbage is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cardamom": {
+        "description": "Cardamom is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Carrot": {
+        "description": "Carrot is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cashewnut": {
+        "description": "Cashewnut is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cashewnut Processed": {
+        "description": "Cashewnut Processed is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cashewnut Raw": {
+        "description": "Cashewnut Raw is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Castor seed": {
+        "description": "Castor seed is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cauliflower": {
+        "description": "Cauliflower is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Citrus Fruit": {
+        "description": "Citrus Fruit is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Coconut": {
+        "description": "Coconut is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Coffee": {
+        "description": "Coffee is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Colocosia": {
+        "description": "Colocosia is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cond-spcs other": {
+        "description": "Cond-spcs other is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Coriander": {
+        "description": "Coriander is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cotton(lint)": {
+        "description": "Cotton(lint) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cowpea(Lobia)": {
+        "description": "Cowpea(Lobia) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Cucumber": {
+        "description": "Cucumber is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Drum Stick": {
+        "description": "Drum Stick is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Dry chillies": {
+        "description": "Dry chillies is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Dry ginger": {
+        "description": "Dry ginger is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Garlic": {
+        "description": "Garlic is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Ginger": {
+        "description": "Ginger is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Gram": {
+        "description": "Gram is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Grapes": {
+        "description": "Grapes is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
     "Groundnut": {
-      "description": "Groundnut is an important oilseed crop.",
-      "soil": "Sandy loam",
-      "season": "Kharif",
-      "water": "Low to Moderate",
-      "harvest": "100-130 days"
+        "description": "Groundnut is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Guar seed": {
+        "description": "Guar seed is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Horse-gram": {
+        "description": "Horse-gram is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Jack Fruit": {
+        "description": "Jack Fruit is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Jobster": {
+        "description": "Jobster is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Jowar": {
+        "description": "Jowar is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Jute": {
+        "description": "Jute is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Jute & mesta": {
+        "description": "Jute & mesta is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Kapas": {
+        "description": "Kapas is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Khesari": {
+        "description": "Khesari is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Korra": {
+        "description": "Korra is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Lab-Lab": {
+        "description": "Lab-Lab is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Lemon": {
+        "description": "Lemon is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Lentil": {
+        "description": "Lentil is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Linseed": {
+        "description": "Linseed is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Litchi": {
+        "description": "Litchi is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Maize": {
+        "description": "Maize is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Mango": {
+        "description": "Mango is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Masoor": {
+        "description": "Masoor is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Mesta": {
+        "description": "Mesta is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Moong(Green Gram)": {
+        "description": "Moong(Green Gram) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Moth": {
+        "description": "Moth is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Niger seed": {
+        "description": "Niger seed is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Oilseeds total": {
+        "description": "Oilseeds total is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Onion": {
+        "description": "Onion is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Orange": {
+        "description": "Orange is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other  Rabi pulses": {
+        "description": "Other  Rabi pulses is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Cereals": {
+        "description": "Other Cereals is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Cereals & Millets": {
+        "description": "Other Cereals & Millets is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Citrus Fruit": {
+        "description": "Other Citrus Fruit is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Fresh Fruits": {
+        "description": "Other Fresh Fruits is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Kharif pulses": {
+        "description": "Other Kharif pulses is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Rabi pulses": {
+        "description": "Other Rabi pulses is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Summer Pulses": {
+        "description": "Other Summer Pulses is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Other Vegetables": {
+        "description": "Other Vegetables is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Paddy": {
+        "description": "Paddy is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Papaya": {
+        "description": "Papaya is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Peach": {
+        "description": "Peach is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Pear": {
+        "description": "Pear is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Peas  (vegetable)": {
+        "description": "Peas  (vegetable) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Peas & beans (Pulses)": {
+        "description": "Peas & beans (Pulses) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Perilla": {
+        "description": "Perilla is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Pineapple": {
+        "description": "Pineapple is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Plums": {
+        "description": "Plums is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Pome Fruit": {
+        "description": "Pome Fruit is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Pome Granet": {
+        "description": "Pome Granet is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Potato": {
+        "description": "Potato is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Pulses total": {
+        "description": "Pulses total is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Pump Kin": {
+        "description": "Pump Kin is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Ragi": {
+        "description": "Ragi is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Rajmash Kholar": {
+        "description": "Rajmash Kholar is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Rapeseed &Mustard": {
+        "description": "Rapeseed &Mustard is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Redish": {
+        "description": "Redish is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Ribed Guard": {
+        "description": "Ribed Guard is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Rice": {
+        "description": "Rice is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Ricebean (nagadal)": {
+        "description": "Ricebean (nagadal) is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Rubber": {
+        "description": "Rubber is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Safflower": {
+        "description": "Safflower is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Samai": {
+        "description": "Samai is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Sannhamp": {
+        "description": "Sannhamp is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Sapota": {
+        "description": "Sapota is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Sesamum": {
+        "description": "Sesamum is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Small millets": {
+        "description": "Small millets is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Snak Guard": {
+        "description": "Snak Guard is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Soyabean": {
+        "description": "Soyabean is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Sugarcane": {
+        "description": "Sugarcane is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Sunflower": {
+        "description": "Sunflower is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Sweet potato": {
+        "description": "Sweet potato is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Tapioca": {
+        "description": "Tapioca is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Tea": {
+        "description": "Tea is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Tobacco": {
+        "description": "Tobacco is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Tomato": {
+        "description": "Tomato is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Total foodgrain": {
+        "description": "Total foodgrain is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Turmeric": {
+        "description": "Turmeric is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Turnip": {
+        "description": "Turnip is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Urad": {
+        "description": "Urad is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Varagu": {
+        "description": "Varagu is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Water Melon": {
+        "description": "Water Melon is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Wheat": {
+        "description": "Wheat is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "Yam": {
+        "description": "Yam is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "other fibres": {
+        "description": "other fibres is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "other misc. pulses": {
+        "description": "other misc. pulses is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
+    },
+    "other oilseeds": {
+        "description": "other oilseeds is an agricultural crop recommended based on soil and climatic conditions.",
+        "soil": "Suitable soil conditions vary depending on region.",
+        "season": "Depends on cultivation region.",
+        "water": "Moderate water requirement.",
+        "harvest": "Varies according to crop variety."
     }
-  }
+}

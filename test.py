@@ -2,4 +2,6 @@ import joblib
 
 mlb = joblib.load("models/multilabel_binarizer.pkl")
 
-print(mlb.classes_)
+print("Total crops:", len(mlb.classes_))
+
+print(list(mlb.classes_))
