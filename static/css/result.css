@@ -1,0 +1,465 @@
+/* ===============================
+   GLOBAL
+================================ */
+body::before {
+
+    content:"";
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background-image:
+    url("https://www.transparenttextures.com/patterns/leaf.png");
+
+    opacity:0.08;
+
+    pointer-events:none;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    background:
+    radial-gradient(circle at top left, rgba(46,139,87,0.25), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(34,139,34,0.25), transparent 35%),
+    linear-gradient(
+        135deg,
+        #d9f2df,
+        #f5fff7,
+        #d2ecd8
+    );
+
+    color: #173b2a;
+
+    min-height:100vh;
+}
+
+
+/* ===============================
+   RESULT HEADER
+================================ */
+
+.result-title {
+
+    margin-top: 50px;
+
+    font-size: 45px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 800;
+
+    color: #174d36;
+
+}
+
+
+.result-subtitle {
+
+    margin-top: 15px;
+
+    margin-bottom: 50px;
+
+    font-size: 18px;
+
+    color: #52665c;
+
+}
+.reveal-container{
+
+    margin:30px 0;
+
+}
+
+
+.reveal-btn{
+
+    background:#238636;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:
+    0 10px 25px rgba(35,134,54,0.25);
+
+}
+
+
+.reveal-btn:hover{
+
+    background:#176b3a;
+
+    transform:translateY(-3px);
+
+}
+
+
+/* ===============================
+   CROP CARD
+================================ */
+
+.crop-card {
+
+    width:85%;
+    height:500px;
+
+    margin:40px auto;
+
+    perspective:1000px;
+
+    cursor:pointer;
+
+}
+
+
+.flip-card {
+
+    width:100%;
+    height:100%;
+
+    position:relative;
+
+    transform-style:preserve-3d;
+
+    transition:transform 0.8s;
+
+}
+
+
+.crop-card.flipped .flip-card{
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+.flip-front,
+.flip-back{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    backface-visibility:hidden;
+
+    border-radius:30px;
+
+    padding:40px;
+
+    background:rgba(255,255,255,0.85);
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* Hidden side */
+
+.flip-back{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+    linear-gradient(
+    135deg,
+    #238636,
+    #7bc47f
+    );
+
+    color:white;
+
+}
+
+
+
+.flip-back h2{
+
+    font-size:60px;
+
+}
+
+
+
+.flip-back h3{
+
+    font-size:30px;
+
+}
+
+
+
+/* Revealed side */
+
+.flip-front{
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+.crop-image{
+
+    width:320px;
+
+    height:320px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+}
+
+
+
+/* ===============================
+   CROP IMAGE
+================================ */
+.location-box {
+
+    width:85%;
+
+    margin:35px auto;
+
+    padding:18px 30px;
+
+    border-radius:25px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #c8f0d0,
+        #e8faeb
+    );
+
+    color:#145c36;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    text-align:center;
+
+    box-shadow:
+    0 10px 25px rgba(23,75,54,0.12);
+
+}
+.result-title{
+    padding-top:40px;
+}
+.crop-image {
+
+    width: 280px;
+
+    height: 280px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.18);
+
+}
+
+
+
+/* ===============================
+   CROP DETAILS
+================================ */
+
+
+.crop-name {
+
+    font-size: 38px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 800;
+
+    color: #25833c;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.crop-description {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #46584f;
+
+}
+
+
+
+/* ===============================
+   INFORMATION BOXES
+================================ */
+
+
+.crop-details {
+
+    margin-top: 25px;
+
+}
+
+
+
+.detail-box {
+
+    margin-bottom: 12px;
+
+    font-size: 18px;
+
+    color:#174d36;
+
+}
+
+
+
+.detail-box strong {
+
+    font-size: 20px;
+
+    margin-left: 8px;
+
+    color:#145c36;
+
+}
+
+
+
+.detail-box p {
+
+    margin-left: 35px;
+
+    margin-top: 5px;
+
+    color:#596b62;
+
+    font-size:17px;
+
+}
+
+
+
+/* ===============================
+   BUTTONS
+================================ */
+
+
+.result-buttons {
+
+    margin:50px 0;
+
+}
+
+
+
+.result-buttons .btn {
+
+    padding:14px 35px;
+
+    border-radius:30px;
+
+    font-size:17px;
+
+    margin:10px;
+
+}
+
+
+
+.btn-success {
+
+    background:#238636;
+
+    border:none;
+
+}
+
+
+
+.btn-success:hover {
+
+    background:#145c29;
+
+}
+
+
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+
+
+@media(max-width:900px){
+
+
+    .crop-card {
+
+        width:92%;
+
+    }
+
+
+    .crop-image {
+
+        width:250px;
+
+        height:250px;
+
+        margin-bottom:25px;
+
+    }
+
+
+    .crop-name {
+
+        font-size:30px;
+
+    }
+
+
+    .result-title {
+
+        font-size:32px;
+
+    }
+
+}

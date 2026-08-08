@@ -1,200 +1,158 @@
 /* ===============================
    GLOBAL
 ================================ */
+
+body {
+
+    margin:0;
+
+    font-family:'Poppins',sans-serif;
+
+    background-image:
+    url("../images/farm-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    color:#173b2a;
+
+}
+
+
+/* dark overlay for background */
+
 body::before {
 
     content:"";
 
     position:fixed;
 
-    top:0;
-    left:0;
-
-    width:100%;
-    height:100%;
-
-    background-image:
-    url("https://www.transparenttextures.com/patterns/leaf.png");
-
-    opacity:0.08;
-
-    pointer-events:none;
-
-}
-
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+    inset:0;
 
     background:
-    radial-gradient(circle at top left, rgba(46,139,87,0.25), transparent 35%),
-    radial-gradient(circle at bottom right, rgba(34,139,34,0.25), transparent 35%),
-    linear-gradient(
-        135deg,
-        #d9f2df,
-        #f5fff7,
-        #d2ecd8
-    );
+    rgba(0,40,20,0.5);
 
-    color: #173b2a;
+    z-index:-1;
 
-    min-height:100vh;
 }
-
-
 /* ===============================
-   RESULT HEADER
+   BACK BUTTON
 ================================ */
 
-.result-title {
+.back-btn {
 
-    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 
-    font-size: 45px;
+    margin-bottom: 35px;
 
-    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
 
-    font-weight: 800;
+    border-radius: 30px;
 
-    color: #174d36;
+    text-decoration: none;
 
-}
+    font-size: 16px;
+    font-weight: 600;
 
+    color: white;
 
-.result-subtitle {
+    background:
+    rgba(255,255,255,0.18);
 
-    margin-top: 15px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 
-    margin-bottom: 50px;
-
-    font-size: 18px;
-
-    color: #52665c;
-
-}
-.reveal-container{
-
-    margin:30px 0;
-
-}
-
-
-.reveal-btn{
-
-    background:#238636;
-
-    color:white;
-
-    border:none;
-
-    padding:15px 35px;
-
-    border-radius:30px;
-
-    font-size:18px;
-
-    font-weight:600;
-
-    cursor:pointer;
-
-    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.35);
 
     box-shadow:
-    0 10px 25px rgba(35,134,54,0.25);
+    0 8px 25px rgba(0,0,0,0.25);
+
+    transition:0.3s ease;
 
 }
 
 
-.reveal-btn:hover{
+.back-btn:hover {
 
-    background:#176b3a;
+    background:
+    rgba(255,255,255,0.35);
+
+    color:white;
 
     transform:translateY(-3px);
 
+    box-shadow:
+    0 12px 30px rgba(0,0,0,0.35);
+
 }
+
+/* ===============================
+   TITLE
+================================ */
+
+.predict-title {
+
+    color:white;
+
+    font-family:'Montserrat',sans-serif;
+
+    font-weight:800;
+
+    text-shadow:
+    0 3px 12px rgba(0,0,0,0.7);
+
+}
+
+
+
+.predict-subtitle {
+
+    color:white;
+
+    font-size:18px;
+
+    text-shadow:
+    0 2px 8px rgba(0,0,0,0.6);
+
+}
+
 
 
 /* ===============================
-   CROP CARD
+   HERO
 ================================ */
 
-.crop-card {
+.hero{
 
-    width:85%;
-    height:500px;
-
-    margin:40px auto;
-
-    perspective:1000px;
-
-    cursor:pointer;
+    padding:20px 0;
 
 }
 
 
-.flip-card {
+.hero h1{
 
-    width:100%;
-    height:100%;
+    font-family:'Montserrat',sans-serif;
 
-    position:relative;
+    font-size:60px;
 
-    transform-style:preserve-3d;
+    font-weight:800;
 
-    transition:transform 0.8s;
+    color:rgb(237, 232, 232);
 
-}
-
-
-.crop-card.flipped .flip-card{
-
-    transform:rotateY(180deg);
+    text-shadow:
+    0 3px 10px rgba(0,0,0,.6);
 
 }
 
 
+.hero p{
 
-.flip-front,
-.flip-back{
-
-    position:absolute;
-
-    width:100%;
-    height:100%;
-
-    backface-visibility:hidden;
-
-    border-radius:30px;
-
-    padding:40px;
-
-    background:rgba(255,255,255,0.85);
-
-    box-shadow:
-    0 20px 50px rgba(0,0,0,0.12);
-
-}
-
-
-
-/* Hidden side */
-
-.flip-back{
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-    background:
-    linear-gradient(
-    135deg,
-    #238636,
-    #7bc47f
-    );
+    font-size:18px;
 
     color:white;
 
@@ -202,264 +160,261 @@ body {
 
 
 
-.flip-back h2{
-
-    font-size:60px;
-
-}
-
-
-
-.flip-back h3{
-
-    font-size:30px;
-
-}
-
-
-
-/* Revealed side */
-
-.flip-front{
-
-    transform:rotateY(180deg);
-
-}
-
-
-
-.crop-image{
-
-    width:320px;
-
-    height:320px;
-
-    object-fit:cover;
-
-    border-radius:25px;
-
-}
-
-
-
 /* ===============================
-   CROP IMAGE
+   GLASS CARD
 ================================ */
-.location-box {
 
-    width:85%;
 
-    margin:35px auto;
+.glass-card {
 
-    padding:18px 30px;
-
-    border-radius:25px;
 
     background:
-    linear-gradient(
-        135deg,
-        #c8f0d0,
-        #e8faeb
-    );
 
-    color:#145c36;
+    rgba(76, 133, 87, 0.22);
 
-    font-size:20px;
 
-    font-weight:600;
+    backdrop-filter:blur(30px);
 
-    text-align:center;
+    -webkit-backdrop-filter:blur(30px);
 
-    box-shadow:
-    0 10px 25px rgba(23,75,54,0.12);
 
-}
-.result-title{
-    padding-top:40px;
-}
-.crop-image {
+    border:
 
-    width: 280px;
+    1px solid rgba(43, 9, 9, 0.192);
 
-    height: 280px;
-
-    object-fit: cover;
-
-    border-radius: 25px;
-
-    box-shadow:
-    0 10px 25px rgba(0,0,0,0.18);
-
-}
-
-
-
-/* ===============================
-   CROP DETAILS
-================================ */
-
-
-.crop-name {
-
-    font-size: 38px;
-
-    font-family: 'Montserrat', sans-serif;
-
-    font-weight: 800;
-
-    color: #25833c;
-
-    margin-bottom: 20px;
-
-}
-
-
-
-.crop-description {
-
-    font-size: 18px;
-
-    line-height: 1.6;
-
-    color: #46584f;
-
-}
-
-
-
-/* ===============================
-   INFORMATION BOXES
-================================ */
-
-
-.crop-details {
-
-    margin-top: 25px;
-
-}
-
-
-
-.detail-box {
-
-    margin-bottom: 12px;
-
-    font-size: 18px;
-
-    color:#174d36;
-
-}
-
-
-
-.detail-box strong {
-
-    font-size: 20px;
-
-    margin-left: 8px;
-
-    color:#145c36;
-
-}
-
-
-
-.detail-box p {
-
-    margin-left: 35px;
-
-    margin-top: 5px;
-
-    color:#596b62;
-
-    font-size:17px;
-
-}
-
-
-
-/* ===============================
-   BUTTONS
-================================ */
-
-
-.result-buttons {
-
-    margin:50px 0;
-
-}
-
-
-
-.result-buttons .btn {
-
-    padding:14px 35px;
 
     border-radius:30px;
 
-    font-size:17px;
 
-    margin:10px;
-
-}
+    padding:40px;
+    margin-bottom: 35px;
 
 
+    box-shadow:
 
-.btn-success {
-
-    background:#238636;
-
-    border:none;
-
-}
-
-
-
-.btn-success:hover {
-
-    background:#145c29;
+    0 20px 60px rgba(0,0,0,0.25);
 
 }
 
 
 
 /* ===============================
-   MOBILE RESPONSIVE
+   CARD TEXT
 ================================ */
 
 
-@media(max-width:900px){
+.glass-card h2,
+.section-title {
 
 
-    .crop-card {
-
-        width:92%;
-
-    }
+    color:white !important;
 
 
-    .crop-image {
+    font-family:'Montserrat',sans-serif;
 
-        width:250px;
-
-        height:250px;
-
-        margin-bottom:25px;
-
-    }
+    font-weight:800;
 
 
-    .crop-name {
+    text-shadow:
 
-        font-size:30px;
+    0 3px 10px rgba(0,0,0,.7);
 
-    }
-
-
-    .result-title {
-
-        font-size:32px;
-
-    }
 
 }
+
+
+
+.glass-card p,
+.section-text {
+
+
+    color:#f1f1f1 !important;
+
+
+    text-shadow:
+
+    0 2px 5px rgba(0,0,0,.5);
+
+}
+
+
+
+.glass-card label {
+
+
+    color:white;
+
+
+    font-weight:600;
+
+
+    text-shadow:
+
+    0 2px 5px rgba(0,0,0,.6);
+
+}
+
+
+
+/* ===============================
+   CARD HEADING
+================================ */
+
+
+.card-heading{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+
+.card-heading i{
+
+    font-size:28px;
+
+    color:white;
+
+}
+
+
+
+.card-heading h2{
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+
+
+/* ===============================
+   INPUTS
+================================ */
+
+
+.form-control,
+.form-select,
+.glass-card input,
+.glass-card select {
+
+
+    background:
+
+    rgba(172, 157, 157, 0.25);
+
+
+    backdrop-filter:blur(10px);
+
+
+    border:
+
+    1px solid rgba(255,255,255,0.45);
+
+
+    color:rgb(207, 202, 202);
+
+
+    border-radius:12px;
+
+}
+
+
+
+.form-control::placeholder,
+.glass-card input::placeholder{
+
+
+    color:
+
+    rgba(192, 186, 186, 0.8);
+
+}
+
+
+
+.form-select option,
+.glass-card select option {
+
+
+    color:#173b2a;
+
+}
+
+
+
+/* focus */
+
+.form-control:focus,
+.form-select:focus {
+
+
+    border-color:#238636;
+
+
+    box-shadow:
+
+    0 0 0 4px rgba(35,134,54,.2);
+
+}
+
+
+
+/* ===============================
+   BUTTON
+================================ */
+
+
+.predict-btn{
+
+
+    padding:16px 45px;
+
+
+    border:none;
+
+
+    border-radius:35px;
+
+
+    background:#238636;
+
+
+    color:white;
+
+
+    font-size:18px;
+
+
+    font-weight:600;
+
+
+    box-shadow:
+
+    0 15px 30px rgba(35,134,54,.25);
+
+
+    transition:.3s;
+
+}
+
+
+
+.predict-btn:hover{
+
+
+    background:#176b3a;
+
+
+    transform:translateY(-4px);
+
+}
+

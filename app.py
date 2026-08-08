@@ -45,7 +45,18 @@ def get_districts(state):
 
 @app.route("/predict")
 def predict():
-    return render_template("predict.html")
+
+    states = sorted(
+        dataset["state_name"]
+        .dropna()
+        .unique()
+        .tolist()
+    )
+
+    return render_template(
+        "predict.html",
+        states=states
+    )
 
 
 @app.route("/recommend", methods=["POST"])
