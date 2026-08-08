@@ -1,0 +1,41 @@
+{
+    "Rice": {
+      "description": "Rice is one of the most important food crops in India.",
+      "soil": "Clayey or loamy soil",
+      "season": "Kharif",
+      "water": "High",
+      "harvest": "120-150 days"
+    },
+  
+    "Wheat": {
+      "description": "Wheat is a major Rabi cereal crop.",
+      "soil": "Well-drained loamy soil",
+      "season": "Rabi",
+      "water": "Moderate",
+      "harvest": "110-140 days"
+    },
+  
+    "Maize": {
+      "description": "Maize is widely used as food, fodder and industrial raw material.",
+      "soil": "Well-drained fertile soil",
+      "season": "Kharif/Rabi",
+      "water": "Moderate",
+      "harvest": "90-120 days"
+    },
+  
+    "Cotton": {
+      "description": "Cotton is an important commercial fibre crop.",
+      "soil": "Black cotton soil",
+      "season": "Kharif",
+      "water": "Moderate",
+      "harvest": "160-180 days"
+    },
+  
+    "Groundnut": {
+      "description": "Groundnut is an important oilseed crop.",
+      "soil": "Sandy loam",
+      "season": "Kharif",
+      "water": "Low to Moderate",
+      "harvest": "100-130 days"
+    }
+  }

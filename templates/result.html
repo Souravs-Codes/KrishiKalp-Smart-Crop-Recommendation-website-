@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KrishiKalp | Recommendation Result</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+
+            font-family:'Poppins',sans-serif;
+            background:linear-gradient(135deg,#eef8ef,#d9f3df);
+            min-height:100vh;
+
+        }
+
+        .page-title{
+
+            text-align:center;
+            margin-bottom:50px;
+
+        }
+
+        .page-title h1{
+
+            font-size:45px;
+            font-weight:700;
+            color:#2E7D32;
+
+        }
+
+        .page-title p{
+
+            color:#666;
+            font-size:18px;
+
+        }
+
+        .result-card{
+
+            background:white;
+            border-radius:20px;
+            padding:30px;
+            margin-bottom:30px;
+            box-shadow:0 12px 35px rgba(0,0,0,.08);
+            transition:.3s;
+
+        }
+
+        .result-card:hover{
+
+            transform:translateY(-8px);
+
+        }
+
+        .crop-rank{
+
+            width:70px;
+            height:70px;
+            border-radius:50%;
+            background:#2E7D32;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:30px;
+            font-weight:bold;
+
+        }
+
+        .crop-name{
+
+            font-size:30px;
+            font-weight:600;
+            color:#2E7D32;
+
+        }
+
+        .info-card{
+
+            background:#f7f7f7;
+            border-radius:12px;
+            padding:15px;
+            height:100%;
+            margin-top:15px;
+
+        }
+
+        .info-title{
+
+            font-weight:600;
+            color:#2E7D32;
+
+        }
+
+        .btn-custom{
+
+            background:#2E7D32;
+            color:white;
+            padding:12px 35px;
+            border-radius:50px;
+            text-decoration:none;
+            transition:.3s;
+
+        }
+
+        .btn-custom:hover{
+
+            background:#256528;
+            color:white;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+    <div class="page-title">
+
+        <h1>🌾 AI Crop Recommendation</h1>
+
+        <p>Based on your soil and weather conditions, these crops are the most suitable.</p>
+
+    </div>
+
+    {% for crop in crops %}
+
+    <div class="result-card">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-1 text-center">
+
+                <div class="crop-rank">
+                    {{ loop.index }}
+                </div>
+
+            </div>
+
+            <div class="col-md-11">
+
+                <h2 class="crop-name">
+                    {{ crop.name }}
+                </h2>
+
+                <p class="text-muted mt-2">
+                    {{ crop.info.description }}
+                </p>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="info-card">
+
+                            <div class="info-title">
+                                🌱 Suitable Soil
+                            </div>
+
+                            {{ crop.info.soil }}
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="info-card">
+
+                            <div class="info-title">
+                                🌦 Recommended Season
+                            </div>
+
+                            {{ crop.info.season }}
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="info-card">
+
+                            <div class="info-title">
+                                💧 Water Requirement
+                            </div>
+
+                            {{ crop.info.water }}
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="info-card">
+
+                            <div class="info-title">
+                                🌾 Harvest Duration
+                            </div>
+
+                            {{ crop.info.harvest }}
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+    <div class="text-center mt-5">
+
+        <a href="/predict" class="btn btn-custom">
+            🔄 Predict Again
+        </a>
+
+        <a href="/" class="btn btn-outline-success ms-3">
+            🏠 Home
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,17 +1,30 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+# Weather CSV files
+data/weather/
+# Training logs
+**/catboost_info/
+# Jupyter
 .ipynb_checkpoints/
 
-data/raw/
-data/processed/
-*.pyc
-*.pyo
-*.pyd
-
+# Environment / secrets
 .env
 
-artifacts/
+# Large datasets
+data/raw/
+data/processed/*.csv
 
-logs/
+# NASA weather files
+data/processed/weather/
 
-.vscode/
+# Temporary files
+*.log
+
+# Large ML model
+models/lightgbm_tuned_crop_recommender.pkl

@@ -1,0 +1,614 @@
+:root {
+
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+
+}
+
+
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    overflow-x: hidden;
+
+    background: #111;
+}
+
+
+/* ===========================
+   HERO BACKGROUND
+=========================== */
+.hero {
+    position: relative;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, .45),
+            rgba(0, 0, 0, .45)),
+        url("../images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    overflow: hidden;
+}
+.spotlight {
+
+    position: absolute;
+    inset: 0;
+
+    pointer-events: none;
+
+    z-index: 2;
+
+    background:
+        radial-gradient(circle 180px at var(--x, 50%) var(--y, 50%),
+
+            rgba(255, 255, 255, .18),
+
+            rgba(255, 255, 255, .08) 35%,
+
+            rgba(0, 0, 0, 0) 70%);
+
+    mix-blend-mode: screen;
+}
+.spotlight {
+
+    transition: background .04s linear;
+
+}
+.hero-bg {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: url("../images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    z-index: 0;
+
+}
+.hero-bg,
+.hero-blur {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: url("../images/background-blur.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    z-index: 1;
+
+    -webkit-mask-image:
+        radial-gradient(circle 180px at var(--mouse-x) var(--mouse-y),
+
+            transparent 0,
+
+            transparent 120px,
+
+            black 220px);
+
+    mask-image:
+        radial-gradient(circle 180px at var(--mouse-x) var(--mouse-y),
+
+            transparent 0,
+
+            transparent 120px,
+
+            black 220px);
+
+    transition:
+        -webkit-mask-position .05s linear,
+        mask-position .05s linear;
+
+}
+.overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, .42);
+
+    z-index: 2;
+
+}
+.hero-content {
+
+    position: relative;
+
+    z-index: 5;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+/* ===========================
+   DARK OVERLAY
+=========================== */
+
+.overlay {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, .25);
+
+}
+
+
+/* ===========================
+   NAVBAR
+=========================== */
+.custom-navbar {
+
+    background: rgba(15, 15, 15, .18);
+
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .25);
+
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+
+.nav-link {
+
+    color: white !important;
+
+    font-weight: 500;
+
+    margin-left: 15px;
+
+    transition: .3s;
+
+}
+
+
+.nav-link:hover {
+
+    color: #7CFC00 !important;
+
+}
+
+
+.btn-success {
+
+    background: #2E7D32;
+
+    border: none;
+
+    border-radius: 50px;
+
+    padding: 12px 28px;
+
+    transition: .35s;
+
+}
+
+
+.btn-success:hover {
+
+    background: #43A047;
+
+    transform: translateY(-3px);
+
+}
+
+
+/* ===========================
+   HERO CONTENT
+=========================== */
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    animation: fadeUp 1.5s ease;
+
+    margin-top: 200px;
+    /* Adjust between 30px–60px */
+}
+
+
+.hero-logo {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+
+.hero h1 {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 4.5rem;
+
+    font-weight: 800;
+
+    line-height: 1.2;
+
+}
+
+
+.hero p {
+
+    font-size: 1.35rem;
+
+    margin-top: 25px;
+
+    color: #e5e5e5;
+
+}
+
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn-outline-light {
+
+    border-radius: 50px;
+
+    padding: 12px 30px;
+
+}
+
+
+/* ===========================
+   SCROLL INDICATOR
+=========================== */
+.scroll-indicator {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 42px;
+    color: white;
+
+    animation: bounce 2s infinite;
+}
+
+/* ===========================
+   ANIMATIONS
+=========================== */
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(50px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+
+        transform: translate(-50%, 0);
+
+    }
+
+    40% {
+
+        transform: translate(-50%, -15px);
+
+    }
+
+    60% {
+
+        transform: translate(-50%, -8px);
+
+    }
+
+}
+
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px) {
+
+    .hero h1 {
+
+        font-size: 3rem;
+
+    }
+
+    .hero p {
+
+        font-size: 1.1rem;
+
+    }
+
+    .hero-logo {
+
+        width: 120px;
+
+    }
+
+}
+
+
+@media(max-width:576px) {
+
+    .hero h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+    .hero p {
+
+        font-size: 1rem;
+
+    }
+
+    .logo {
+
+        height: 42px;
+
+    }
+
+
+}
+.hero-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background: #7CFC00;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+/* ===========================
+   WHY SECTION
+=========================== */
+
+.why-section {
+
+    padding: 120px 0;
+
+    background: #f8faf8;
+
+}
+
+.section-tag {
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border-radius: 50px;
+
+    background: #dff5e1;
+
+    color: #2E7D32;
+
+    font-weight: 600;
+
+    font-size: .9rem;
+
+    letter-spacing: 1px;
+
+}
+
+.section-title {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2.8rem;
+
+    font-weight: 700;
+
+    color: #1c1c1c;
+
+}
+
+.section-text {
+
+    margin-top: 20px;
+
+    color: #555;
+
+    line-height: 1.9;
+
+    font-size: 1.05rem;
+
+}
+
+.stats-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+}
+
+.stat-card {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+
+    transition: .35s ease;
+
+}
+
+.stat-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .12);
+
+}
+
+.stat-card h3 {
+
+    color: #2E7D32;
+
+    font-size: 2.3rem;
+
+    font-weight: 700;
+
+}
+
+.stat-card p {
+
+    margin-top: 10px;
+
+    color: #666;
+
+}
+/* ===========================
+   PROBLEM SECTION
+=========================== */
+
+.problem-section {
+
+    padding: 120px 0;
+
+    background: linear-gradient(135deg, #1b4332, #081c15);
+
+    color: white;
+
+}
+
+.problem-subtitle {
+
+    max-width: 750px;
+
+    margin: 20px auto 0;
+
+    color: #d9d9d9;
+
+    line-height: 1.8;
+
+}
+
+.problem-card {
+
+    background: rgba(255, 255, 255, .08);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, .12);
+
+    border-radius: 20px;
+
+    padding: 35px 25px;
+
+    text-align: center;
+
+    height: 100%;
+
+    transition: .35s;
+
+}
+
+.problem-card:hover {
+
+    transform: translateY(-10px);
+
+    background: rgba(255, 255, 255, .14);
+
+}
+
+.problem-icon {
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+
+}
+
+.problem-card h4 {
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+.problem-card p {
+
+    color: #ececec;
+
+    line-height: 1.7;
+
+}
