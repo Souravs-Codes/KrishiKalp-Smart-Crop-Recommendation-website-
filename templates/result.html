@@ -61,119 +61,104 @@
         📍 Recommended crops based on your soil and weather conditions
 
     </div>
+    <div class="text-center reveal-container">
+
+    <button id="revealAllBtn" class="reveal-btn">
+        🌱 Reveal All Crop Details
+    </button>
+
+    </div>
   
 
 
     {% for crop in crops %}
 
 
-    <div class="crop-card">
+    <div class="crop-card" onclick="this.classList.toggle('flipped')">
 
+            <<div class="flip-card">
 
-        <div class="row align-items-center">
+            <!-- BACK SIDE -->
+            <div class="flip-back">
 
+                <h2>🌱</h2>
 
-            <!-- Image -->
+                <h3>Recommended Crop</h3>
 
-            <div class="col-lg-4 text-center">
-                <span class="rank-badge">
-                    🌱 Recommended Crop
-                </span>
-
-
-                <img 
-                src="{{ url_for('static', filename='images/crops/' + crop.info.image) }}"
-                class="crop-image"
-                alt="{{ crop.name }}">
-
+                <p>Click to reveal details</p>
 
             </div>
 
 
+            <!-- FRONT SIDE -->
+            <div class="flip-front">
 
-            <!-- Details -->
-
-            <div class="col-lg-8">
-
-
-                <h2 class="crop-name">
-
-                    {{ crop.name }}
-
-                </h2>
+                <div class="row align-items-center">
 
 
+                    <div class="col-lg-4 text-center">
 
-                <p class="crop-description">
-
-                    {{ crop.info.description }}
-
-                </p>
-
-
-
-                <div class="crop-details">
-
-
-
-                    <div class="detail-box">
-
-                        🌱
-
-                        <strong>Soil</strong>
-
-                        <p>
-                            {{ crop.info.soil }}
-                        </p>
+                        <img 
+                        src="{{ url_for('static', filename='images/crops/' + crop.info.image) }}"
+                        class="crop-image">
 
                     </div>
 
 
+                    <div class="col-lg-8">
 
-                    <div class="detail-box">
 
-                        🌦
+                        <h2 class="crop-name">
+                            {{ crop.name }}
+                        </h2>
 
-                        <strong>Season</strong>
 
-                        <p>
-                            {{ crop.info.season }}
+                        <p class="crop-description">
+                            {{ crop.info.description }}
                         </p>
 
+
+
+                        <div class="detail-box">
+
+                            🌱 <strong>Soil</strong>
+
+                            <p>{{ crop.info.soil }}</p>
+
+                        </div>
+
+
+                        <div class="detail-box">
+
+                            🌦 <strong>Season</strong>
+
+                            <p>{{ crop.info.season }}</p>
+
+                        </div>
+
+
+                        <div class="detail-box">
+
+                            💧 <strong>Water Requirement</strong>
+
+                            <p>{{ crop.info.water }}</p>
+
+                        </div>
+
+
+                        <div class="detail-box">
+
+                            ⏳ <strong>Harvest</strong>
+
+                            <p>{{ crop.info.harvest }}</p>
+
+                        </div>
+
+
                     </div>
-
-
-
-                    <div class="detail-box">
-
-                        💧
-
-                        <strong>Water Requirement</strong>
-
-                        <p>
-                            {{ crop.info.water }}
-                        </p>
-
-                    </div>
-
-
-
-                    <div class="detail-box">
-
-                        ⏳
-
-                        <strong>Harvest</strong>
-
-                        <p>
-                            {{ crop.info.harvest }}
-                        </p>
-
-                    </div>
-
 
 
                 </div>
-
 
             </div>
 
@@ -227,3 +212,23 @@
 </body>
 
 </html>
+
+<script>
+
+document.getElementById("revealAllBtn").addEventListener("click", function(){
+
+    let cards = document.querySelectorAll(".crop-card");
+
+
+    cards.forEach(card => {
+
+        card.classList.add("flipped");
+
+    });
+
+
+    this.innerHTML = "✅ All Crop Details Revealed";
+
+});
+
+</script>

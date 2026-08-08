@@ -72,43 +72,171 @@ body {
     color: #52665c;
 
 }
+.reveal-container{
 
+    margin:30px 0;
+
+}
+
+
+.reveal-btn{
+
+    background:#238636;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:
+    0 10px 25px rgba(35,134,54,0.25);
+
+}
+
+
+.reveal-btn:hover{
+
+    background:#176b3a;
+
+    transform:translateY(-3px);
+
+}
 
 
 /* ===============================
    CROP CARD
 ================================ */
 
-
 .crop-card {
 
     width:85%;
-    margin:35px auto;
+    height:500px;
 
-    padding:35px;
+    margin:40px auto;
 
-    background:
-    rgba(255,255,255,0.65);
+    perspective:1000px;
 
-    backdrop-filter: blur(15px);
+    cursor:pointer;
 
-    border-radius:30px;
-
-    border:1px solid rgba(255,255,255,0.6);
-
-    box-shadow:
-    0 20px 50px rgba(23,75,54,0.15);
-
-    transition:0.3s;
 }
 
 
-.crop-card:hover {
+.flip-card {
 
-    transform: translateY(-8px);
+    width:100%;
+    height:100%;
+
+    position:relative;
+
+    transform-style:preserve-3d;
+
+    transition:transform 0.8s;
+
+}
+
+
+.crop-card.flipped .flip-card{
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+.flip-front,
+.flip-back{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    backface-visibility:hidden;
+
+    border-radius:30px;
+
+    padding:40px;
+
+    background:rgba(255,255,255,0.85);
 
     box-shadow:
-    0 25px 55px rgba(0,0,0,0.18);
+    0 20px 50px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* Hidden side */
+
+.flip-back{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+    linear-gradient(
+    135deg,
+    #238636,
+    #7bc47f
+    );
+
+    color:white;
+
+}
+
+
+
+.flip-back h2{
+
+    font-size:60px;
+
+}
+
+
+
+.flip-back h3{
+
+    font-size:30px;
+
+}
+
+
+
+/* Revealed side */
+
+.flip-front{
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+.crop-image{
+
+    width:320px;
+
+    height:320px;
+
+    object-fit:cover;
+
+    border-radius:25px;
 
 }
 
