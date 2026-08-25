@@ -45,18 +45,7 @@ def get_districts(state):
 
 @app.route("/predict")
 def predict():
-
-    states = sorted(
-        dataset["state_name"]
-        .dropna()
-        .unique()
-        .tolist()
-    )
-
-    return render_template(
-        "predict.html",
-        states=states
-    )
+    return render_template("predict.html")
 
 
 @app.route("/recommend", methods=["POST"])
@@ -115,4 +104,4 @@ def recommend():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0",debug=True)
